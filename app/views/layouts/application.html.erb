@@ -14,5 +14,14 @@
 <%= render "shared/flashes" %>
 
     <%= yield %>
+
+    <script>
+    window.addEventListener('scroll', function() {
+    let scrollPosition = window.scrollY;
+    let moveDistance = scrollPosition * 1;
+    document.querySelector('.carpenter').style.transform = "translateY(" + moveDistance + "px)";
+    })
+    </script>
+
   </body>
 </html>

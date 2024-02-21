@@ -1,0 +1,81 @@
+.ladder-container {
+  // position: relative;
+  height: 100vh;
+  text-align: center;
+}
+
+.ladder {
+  // position: absolute;
+  // right: 0;
+  // top: 0;
+  width: 100px; /* Adjust as needed */
+  height: 100%;
+  background-color: transparent;
+}
+
+.ladder-rung {
+  // width: 150px;
+  height: 10%; /* Adjust as needed */
+  background-color: transparent;
+  border-top: 4px solid #8B4513;
+  border-bottom: 4px solid #8B4513;
+  border-left: 8px solid #8B4513;
+  border-right: 8px solid #8B4513;
+}
+
+.ladder-top {
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+  // width: 150px;
+  height: 6%;
+  background-color: transparent;
+  border-left: 8px solid #8B4513;
+  border-right: 8px solid #8B4513;
+  border-bottom: 4px solid #8B4513;
+}
+
+.ladder-bottom {
+  // position: absolute;
+  // bottom: 0;
+  // right: 0;
+  // width: 150px;
+  height: 6%;
+  border-left: 8px solid #8B4513;
+  border-right: 8px solid #8B4513;
+  border-top: 4px solid #8B4513;
+}
+
+.carpenter {
+  margin-top: 0px;
+  position: absolute;
+  right: 8%;
+  top: 8%;
+  transform: translateY(-100%);
+}
+
+.carpenter-image {
+  width: 100%;
+  height: 400px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+  background-image: url("woodtexture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left {
+  width: 85%;
+}
+
+.left-and-right {
+  display: flex;
+  text-align: center;
+}
